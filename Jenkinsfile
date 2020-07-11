@@ -8,7 +8,7 @@ pipeline {
     }
     stage ('bulid'){
         steps{
-            sh "https://github.com/alshamari/AWS/tree/master/application/api.py"
+            sh "https://github.com/alshamari/AWS/tree/master/app.py"
 
          
             
