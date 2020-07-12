@@ -8,10 +8,8 @@ pipeline {
     }
     stage ('bulid'){
         steps{
-            sh app
             
-
-         
+            sh 'python ./app.py
             
         }
     }
