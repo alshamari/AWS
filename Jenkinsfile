@@ -9,7 +9,7 @@ pipeline {
     stage ('bulid'){
         steps{
             
-            sh app.py
+            sh './app.py'
 
          
             
