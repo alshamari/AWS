@@ -8,7 +8,7 @@ pipeline {
     }
     stage ('bulid'){
         steps{
-            aws configure list
+            sh app
             
 
          
